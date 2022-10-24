@@ -3,7 +3,7 @@
 <head>
 
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="pages_css/main.css">
 	<link rel="icon" href="">
 	<script src=""></script>
 	<script src="https://kit.fontawesome.com/d82b06789a.js" crossorigin="anonymous"></script>
