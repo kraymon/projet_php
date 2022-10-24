@@ -12,8 +12,13 @@
 	<title>Accueil</title>
 	
 </head>
+
 <body>
-    <h1>subject ?</h1>
+
+    <header>
+        <h1>MyTeam</h1>
+    </header>
 
 </body>
+
 </html>
