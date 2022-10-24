@@ -4,12 +4,17 @@
 	<head>
 		<title>Se connecter</title>
 		<meta charset="utf-8"/>
-		<link rel="stylesheet" href="page_css/connection.css">
+		<link rel="stylesheet" href="pages_css/connection.css">
 
 	</head>
 
     <body>
 
+    <header>
+        <h1>Se connecter</h1>
+    </header>
+    
+    
     <form method="post">
 			
 			<h4>Nom d'utilisateur :</h4>
@@ -24,12 +29,13 @@
 			
 			<a href="creation_compte.php">Créer un compte</a>
 			
-			<br><br>
+			<br><br><br>
 			
 			<input type="submit" value="Valider" name="envoyer"/><br>
 			
 			
 		</form>
+        
 
         <?php
         #on demarre une session

@@ -23,10 +23,7 @@ if ( $idcon->connect_errno ) {
 
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="pages_css/main.css">
-	<link rel="icon" href="">
-	<script src=""></script>
-	
-	
+
 	
 	<title>ACCUEIL</title>
 	
@@ -63,14 +60,20 @@ if ( $idcon->connect_errno ) {
 		<img id='login' src='logos/noun-login-1920837.svg'>
 		Se deconnecter
 		</a>
-        s
+        
     </header>
 
+<<<<<<< HEAD
 
     <table>
         <
     </table>
+=======
+>>>>>>> e7a3c91c5418dde71e4ce1f83e354dfde44d4c99
 
+<form action="cliquons.php">
+	<input type="submit" class="boutonClick" value="cliquons">
+</form>
 
 </body>
 
