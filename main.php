@@ -26,10 +26,7 @@ if ( $idcon->connect_errno ) {
 
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="pages_css/main.css">
-	<link rel="icon" href="">
-	<script src=""></script>
-	
-	
+
 	
 	<title>ACCUEIL</title>
 	
@@ -44,7 +41,7 @@ if ( $idcon->connect_errno ) {
 		<img id='login' src='logos/noun-login-1920837.svg'>
 		Se deconnecter
 		</a>
-        s
+        
     </header>
 
     <table>
