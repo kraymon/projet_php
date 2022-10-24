@@ -1,4 +1,26 @@
 <?php
+<<<<<<< HEAD
+=======
+
+session_start();
+	
+#On redirige l'utilisateur vers la page de connection si il n'est pas connecté
+if(!$_SESSION['connect']){
+	header('Location:connection.php');
+}
+
+include ("bd.php");
+
+$idcon = new mysqli($host, $user, $mdp, $bdd) ;
+if ( $idcon->connect_errno ) {
+	exit ("Impossible de se connecter à la base de données 
+'$bdd' à cause de l'erreur suivant : " . $idcon->connect_error .
+"." ) ;
+}
+
+
+
+>>>>>>> 790bb96f564808ff0f1593b9a04bedcd3de0cf32
 ?>
 
 <!DOCTYPE html>
@@ -9,7 +31,7 @@
 	<link rel="stylesheet" href="pages_css/main.css">
 	<link rel="icon" href="">
 	<script src=""></script>
-	<script src="https://kit.fontawesome.com/d82b06789a.js" crossorigin="anonymous"></script>
+	
 	
 	
 	<title>ACCUEIL</title>
@@ -20,6 +42,7 @@
 
 <header>
         <h1>MyTeam</h1>
+<<<<<<< HEAD
 </header>
 <table>
 <tr>
@@ -41,6 +64,20 @@
 </tr>
 
 </table>
+=======
+
+        <a href='deconnection.php' id='connection'>
+		<img id='login' src='logos/noun-login-1920837.svg'>
+		Se deconnecter
+		</a>
+        s
+    </header>
+>>>>>>> 790bb96f564808ff0f1593b9a04bedcd3de0cf32
+
+    <table>
+        <
+    </table>
+
 
 </body>
 
