@@ -1,0 +1,46 @@
+body{
+	background-image:url(background.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position: center;
+	margin:30px;
+}
+
+fieldset{ /* style appliqué au fieldset */
+	margin-top: 70px;
+	width: 59%;
+	
+	box-shadow: 5px 5px 20px 1px 10px rgb(85, 85, 85);/* */
+	border: 0px;
+	padding-left: 10px;
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	height: 516px;
+
+}
+
+#submit, #reset{ /* style appliqué sur cahque bouton*/
+	margin: 20px 35px;
+	color: black;
+	background-color: white;
+	width: 30%;
+	font-size: 17px;
+	border-radius: 20px; /* coins arrondis pour chaque bouton*/
+	border: 1px solid white;
+}
+
+#submit:hover, #reset:hover{ /* style lorsequ'on survole les boutons réserver et annuler*/
+	color: white;
+	background-color: #6ab14e;
+}
+
+input{ /* style appliqué sur chaque input*/
+	font-size: 16px;
+	border: none;
+	outline: none;
+	background: none;
+	border-bottom:1px solid white;/* bordure en bas de 1px et de couleur blanche */
+	color: white;
+	width: 100%;
+}

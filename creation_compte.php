@@ -48,7 +48,10 @@
 <?php
 		
 		#les variables de connection se trouvent dans le fichier bd.php
-		include ("bd.php");
+		$host = "localhost";
+		$user = "root";
+		$mdp = "";
+		$bdd = "dev_projet";
 		
 		#on créer une connection avec notre base de données
 		$connection = new mysqli ($host,$user,$mdp,$bdd);
@@ -89,7 +92,7 @@
 			
 			#si tous les tests précédents ont été passés alors on ajoute les données de l'utilisateur à la base de données
 			else{
-				$a = "INSERT INTO utilisateurs(id_utilisateur,nom_utilisateur,mot_de_passe,adresse,email,telephone) VALUES (\N,'$nom_utilisateur','$mot_de_passe','$adresse','$email','$telephone')";
+				$a = "INSERT INTO `utilisateurs`(id_utilisateur,nom_utilisateur,mot_de_passe,adresse,email,telephone) VALUES (\N,'$nom_utilisateur','$mot_de_passe','$adresse','$email','$telephone')";
 				
 				$connection->query($a);
 				

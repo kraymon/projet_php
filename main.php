@@ -1,7 +1,4 @@
 <?php
-<<<<<<< HEAD
-=======
-
 session_start();
 	
 #On redirige l'utilisateur vers la page de connection si il n'est pas connecté
@@ -18,9 +15,6 @@ if ( $idcon->connect_errno ) {
 "." ) ;
 }
 
-
-
->>>>>>> 790bb96f564808ff0f1593b9a04bedcd3de0cf32
 ?>
 
 <!DOCTYPE html>
@@ -42,12 +36,12 @@ if ( $idcon->connect_errno ) {
 
 <header>
         <h1>MyTeam</h1>
-<<<<<<< HEAD
+
 </header>
 <table>
 <tr>
 			<td> <h1> <a href="crevenements.php" target="_blank"> CREER UN EVENEMENTS </a> </h1>
-			<p> Créer votre équipe de 5 avec vos joueurs préférer </p> </td>
+			<p> Créer votre équipe avec vos joueurs préférer </p> </td>
 			<td>
 			<h1> REJOINDRE UN EVENEMENTS </h1>
 			<p> inscriver un joueur </p>
@@ -64,7 +58,6 @@ if ( $idcon->connect_errno ) {
 </tr>
 
 </table>
-=======
 
         <a href='deconnection.php' id='connection'>
 		<img id='login' src='logos/noun-login-1920837.svg'>
@@ -72,7 +65,7 @@ if ( $idcon->connect_errno ) {
 		</a>
         s
     </header>
->>>>>>> 790bb96f564808ff0f1593b9a04bedcd3de0cf32
+
 
     <table>
         <

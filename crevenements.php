@@ -1,13 +1,11 @@
-<?php
 
-?>
 
 <!DOCTYPE html>
 
 <head>
 
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="pages_css/main.css">
+	<link rel="stylesheet" href="pages_css/crevent.css">
 	<link rel="icon" href="">
 	<script src=""></script>
 	<script src="https://kit.fontawesome.com/d82b06789a.js" crossorigin="anonymous"></script>
@@ -25,7 +23,8 @@
 
 <center>
 	<!-- Début de l'encadré contenant le formulaire -->
-	<fieldset>
+
+<fieldset>
 		<p>Tous les champs avec un (*) doivent être obligatoirement complétés.</p>
 		
 		<form name="Evenement" method="POST" action="test_cre.php">
@@ -78,6 +77,7 @@
 				</tr>
 			</table>
 		</form>
-	</fieldset>
+</fieldset>
+	
 
 	</center>
