@@ -44,10 +44,10 @@ if ( $idcon->connect_errno ) {
         
     </header>
 
-    <table>
-        <
-    </table>
 
+<form action="cliquons.php">
+	<input type="submit" class="boutonClick" value="cliquons">
+</form>
 
 </body>
 
