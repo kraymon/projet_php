@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $user = "root";
-$mdp = "password";
+$mdp = "";
 $bdd = "dev_projet";
 
 
@@ -11,6 +11,7 @@ if ( $idcon->connect_errno ) {
 '$bdd' à cause de l'erreur suivant : " . $idcon->connect_error .
 "." ) ;
 }
+
 
 
 ?>
@@ -35,6 +36,8 @@ if ( $idcon->connect_errno ) {
     <header>
         <h1>MyTeam</h1>
     </header>
+
+
 
 </body>
 
