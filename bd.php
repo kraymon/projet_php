@@ -2,7 +2,7 @@
 
 $host = "localhost";
 $user = "root";
-$mdp = "";
+$mdp = "le mans";
 $bdd = "dev_projet";
 
 ?>
