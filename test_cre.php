@@ -18,4 +18,5 @@ echo "<tr><td>Code postal </td><td>:</td><td>".$CP."</td></tr>";
 echo "<tr><td>Type de compétition </td><td>: </td><td>".$compétition."</td></tr>";
 echo "<tr><td>Nombre d'équipe participant </td><td>: </td><td>".$nbequipe."</td></tr>";
 
+
 ?>
