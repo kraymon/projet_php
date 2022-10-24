@@ -1,3 +1,20 @@
+<?php
+$host = "localhost";
+$user = "root";
+$mdp = "password";
+$bdd = "dev_projet";
+
+
+$idcon = new mysqli($host, $user, $mdp, $bdd) ;
+if ( $idcon->connect_errno ) {
+	exit ("Impossible de se connecter à la base de données 
+'$bdd' à cause de l'erreur suivant : " . $idcon->connect_error .
+"." ) ;
+}
+
+
+?>
+
 <!DOCTYPE html>
 
 <head>
