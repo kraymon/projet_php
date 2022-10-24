@@ -9,7 +9,7 @@
 	<script src="https://kit.fontawesome.com/d82b06789a.js" crossorigin="anonymous"></script>
 	
 	
-	<title>Acceuil</title>
+	<title>Accueil</title>
 	
 </head>
 <body>
