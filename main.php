@@ -26,7 +26,7 @@ if ( $idcon->connect_errno ) {
 	<script src="https://kit.fontawesome.com/d82b06789a.js" crossorigin="anonymous"></script>
 	
 	
-	<title>Accueil</title>
+	<title>ACCUEIL</title>
 	
 </head>
 <body>
